@@ -1,0 +1,280 @@
+.checkout {
+
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+
+.checkout_wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+
+
+}
+
+.chekout_left {
+    padding: 50px 30px;
+    margin-top: 30px;
+    text-align: center;
+    width: 50%;
+    position: relative;
+}
+
+.left_header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 12px solid rgb(4, 161, 161);
+}
+
+.chekout_left_wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.left_body {
+    border: 1px solid rgb(4, 140, 140);
+    display: flex;
+    margin: 20px 10px;
+    border-radius: 3px;
+}
+
+.left_body span {
+    padding: 10px;
+    border: 3px;
+    background-color: rgb(4, 140, 140);
+    color: #fff;
+}
+
+.left_body input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    font-size: 18px;
+    color: rgb(1, 74, 74);
+    font-weight: 600;
+    transition: 0.3s all ease;
+    letter-spacing: 1px;
+
+}
+
+.left_body input:focus {
+    border: none;
+    outline: none;
+    background-color: rgb(4, 140, 140, 0.2);
+}
+
+.left_footer p {
+    font-size: 16px;
+    color: rgb(1, 74, 74);
+    font-weight: 400;
+    letter-spacing: 1px;
+    vertical-align: bottom;
+}
+
+.divider {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.divider small {
+
+    border: 1px solid transparent;
+    font-weight: 600;
+    position: relative;
+}
+
+.divider small::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    width: 40%;
+    height: 1px;
+    background: #fff;
+}
+
+.divider small::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    width: 40%;
+    height: 1px;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.checkout_right {
+    background-color: rgb(4, 140, 140);
+    color: #fff;
+    width: 50%;
+
+}
+
+.checkout_right_wrapper {
+    padding: 50px 30px;
+    text-align: left;
+    margin-top: 30px;
+
+
+}
+
+.checkout_right_wrapper .right_header {
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 1;
+}
+
+.right_body {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.right_body form {
+    display: block;
+}
+
+.right_body form input,
+select {
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    background: rgb(4, 161, 161);
+    outline: none;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    margin: 6px 0px;
+}
+
+.right_body form input::placeholder {
+    color: lightgray;
+}
+
+.right_body form label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card_date_cvc {
+    display: flex;
+}
+
+.right_body form img {
+    width: 60px;
+    height: 25px;
+    margin-top: 13px;
+    margin-left: -60px;
+    border-radius: 2px;
+}
+
+.right_div_submit {
+    text-align: center;
+}
+
+.right_div_submit button {
+    background-color: #fff;
+    color: rgb(4, 161, 161);
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    padding: 10px 35px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-size: 18px;
+    margin: 5px;
+    letter-spacing: 1px;
+}
+
+.right_div_submit button:hover {
+    background-color: transparent !important;
+    color: #fff;
+}
+
+.right_footer {
+    text-align: center;
+}
+
+.right_footer p {
+    font-size: 16px;
+    color: rgb(1, 74, 74);
+    font-weight: 600;
+    letter-spacing: 1px;
+    vertical-align: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:567px) {
+    .checkout_wrapper {
+        display: block;
+        justify-content: center;
+        min-height: auto;
+        background-color: rgb(4, 140, 140, 0.2);
+        color: #fff;
+        height: auto;
+    }
+
+    .chekout_left {
+        width: 100%;
+        height: 400px;
+        padding: 20px 0px;
+        margin-top: 0;
+    }
+
+    .checkout_right {
+        width: 100%;
+
+    }
+
+    .left_header img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 10px solid rgb(4, 161, 161);
+    }
+
+}
